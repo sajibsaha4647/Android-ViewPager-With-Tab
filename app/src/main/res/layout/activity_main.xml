@@ -7,19 +7,16 @@
     android:orientation="vertical"
     tools:context=".Activities.MainActivity">
 
-    <TableLayout
+    <com.google.android.material.tabs.TabLayout
         android:id="@+id/TablayId"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable">
+    </com.google.android.material.tabs.TabLayout>
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/pagerId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </androidx.viewpager2.widget.ViewPager2>
-
-    </TableLayout>
-
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pagerId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>

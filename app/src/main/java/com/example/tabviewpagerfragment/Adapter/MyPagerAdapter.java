@@ -13,7 +13,7 @@ import com.example.tabviewpagerfragment.Fragments.ThirdFrag;
 
 public class MyPagerAdapter extends FragmentStatePagerAdapter {
 
-    String[] Text = {"Australia", "Bangladesh", "India", "Pakistan"};
+    String[] Text = {"Australia", "Bangladesh", "India", "Pakistan","nepal","dhaka"};
 
     public MyPagerAdapter(@NonNull FragmentManager fm, int behavior) {
         super(fm, behavior);
